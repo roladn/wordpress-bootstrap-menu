@@ -39,7 +39,7 @@ function TopMenu() {
         }
   
     } else {
-        $menu_list = '<!-- no menu defined in location "'.$theme_location.'" -->';
+        $menu_list = '<!-- no menu defined in location "'.$menu_name.'" -->';
     }
      
     echo $menu_list;
